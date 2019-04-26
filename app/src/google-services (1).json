@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "333703000952",
+    "firebase_url": "https://onroad-78fc7.firebaseio.com",
+    "project_id": "onroad-78fc7",
+    "storage_bucket": "onroad-78fc7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333703000952:android:4ce4ce7077770d0a",
+        "android_client_info": {
+          "package_name": "com.example.onroadassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333703000952-mghsfrskn7fo9pdmmjg29gd78dc5nicl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRePEPkagK0CZav8DVS5w9IB_ONxC2vEk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

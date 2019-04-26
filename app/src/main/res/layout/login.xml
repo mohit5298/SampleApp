@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:forceHasOverlappingRendering="true"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:weightSum="100">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="70dp"
+                android:gravity="center"
+                android:text="हाई WAY"
+                android:textColor="#8BC34A"
+                android:textColorHighlight="#000000"
+                android:textSize="60dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="HEALS"
+                android:textColor="#000000"
+                android:textSize="50dp"
+                android:textStyle="bold"
+
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:background="#8BC34A"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/name"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginLeft="30dp"
+
+
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/border_thin"
+                    android:hint="username"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:id="@+id/user_name_et"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/lock"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="30dp"
+
+
+                    />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/border_thin"
+                    android:hint="password"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:id="@+id/password_et"/>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/border_thin"
+                android:backgroundTint="#000000"
+                android:text="LOGIN"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:id="@+id/login_btn"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/border_thin"
+                android:backgroundTint="#000000"
+                android:text="SIGNUP"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:id="@+id/signup_btn"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle2"
+        android:clipChildren="true"
+        android:clipToPadding="true"
+        android:forceHasOverlappingRendering="true"
+        android:visibility="visible"
+        android:layout_centerInParent="true"
+
+
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mech"
+        android:clipChildren="true"
+        android:clipToPadding="true"
+        android:forceHasOverlappingRendering="true"
+        android:visibility="visible"
+        android:layout_centerInParent="true"
+
+
+        />
+
+</RelativeLayout>

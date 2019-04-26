@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#BDBDBD"
+    android:background="@drawable/bordr"
+    android:orientation="vertical"
+    >
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/show_msg"
+    android:textSize="25dp"
+    android:textColor="#000000"
+    android:textAlignment="center"
+    android:textStyle="bold"
+    android:text="Select Account Type"/>
+
+    <!--<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/show_msg"-->
+        <!--android:tooltipText="Select Your Account Type"-->
+        <!--android:id="@+id/radio_grp"-->
+        <!--android:orientation="vertical">-->
+        <!--<RadioButton android:id="@+id/user"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Service User"-->
+            <!--android:onClick="onRadioButtonClicked"/>-->
+        <!--<RadioButton android:id="@+id/provider"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Service Provide"-->
+            <!--android:onClick="onRadioButtonClicked"/>-->
+    <!--</RadioGroup>-->
+
+<!--<Button-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/radio_grp"-->
+    <!--android:text="Proceed"-->
+    <!--android:id="@+id/proceed_button"-->
+    <!--/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:layout_below="@id/show_msg"
+        android:layout_marginTop="10dp"
+        android:id="@+id/msgs"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Service User"
+            android:textColor="#000000"
+            android:layout_weight="50"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Service Provider"
+            android:textColor="#000000"
+            android:layout_weight="50"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:id="@+id/pics"
+        android:layout_below="@id/msgs"
+        >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/userfinl"
+            android:layout_weight="50"
+            android:id="@+id/user_imgbtn"
+            android:background="@drawable/border_thin"
+            />
+<ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/mechpicfinl"
+   android:layout_marginLeft="5dp"
+    android:layout_weight="50"
+    android:id="@+id/mech_imgbtn"
+    android:background="@drawable/border_thin"
+    />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
